@@ -1,6 +1,6 @@
 # Solicitar los costos de los servicios básicos
 electricidad = float(input("Ingresa el costo de la electricidad: $"))
-if electricidad < 0:
+if electricidad < 10:
     print("El costo de la electricidad no puede ser negativo.")
     exit()
 
